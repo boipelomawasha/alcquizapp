@@ -1,0 +1,42 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Bleach Anime Quiz</string>
+
+    <!-- Question 1 and options -->
+    <string name="question_1">Which weapon was Rukia initially supposed to wield?</string>
+    <string name="question_1_1">Gun</string>
+    <string name="question_1_2">Scythe</string>
+    <string name="question_1_3">Sickle</string>
+
+    <!-- Question 2 and options -->
+    <string name="question_2">How did Ichigo an co. access Hueco Mundo?</string>
+    <string name="question_2_1">Deigrabo</string>
+    <string name="question_2_2">Garganta</string>
+    <string name="question_2_3">Privarón</string>
+
+    <!-- Question 3 and options -->
+    <string name="question_3">What is the name of the attack that Ichigo uses when he uses the Final Getsuga Tenshō?</string>
+    <string name="question_3_1">Sōsuke</string>
+    <string name="question_3_2">Jugram Haschwalth</string>
+    <string name="question_3_3">Mugetsu</string>
+
+    <!-- Question 4 and options -->
+    <string name="question_4">Who are the current captain\'s of the 3rd and 9th division?</string>
+    <string name="question_4_1">Rōjūrō Ōtoribashi</string>
+    <string name="question_4_2">Sentarō Kotsubaki</string>
+    <string name="question_4_3">Kensei Muguruma</string>
+
+    <!-- Question 5 and options -->
+    <string name="question_5">Which of these are units of the Wandenreich?</string>
+    <string name="question_5_1">Jagdarmee</string>
+    <string name="question_5_2">Sternritter</string>
+    <string name="question_5_3">Quilge Opie</string>
+
+    <!-- Question 6 -->
+    <string name="question_6">Who was the first Kenpachi?</string>
+
+    <!-- Buttons -->
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+
+</resources>
