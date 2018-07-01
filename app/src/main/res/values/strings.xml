@@ -1,5 +1,4 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Bleach Anime Quiz</string>
 
     <!-- Question 1 and options -->
@@ -39,6 +38,6 @@
     <string name="submit">Submit</string>
     <string name="reset">Reset</string>
 
-    <string name="content_description">TODO</string>
+    <string name="content_description">banner</string>
 
 </resources>

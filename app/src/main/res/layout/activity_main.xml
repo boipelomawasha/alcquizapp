@@ -58,7 +58,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
 
             <TextView
                 android:id="@+id/question_2"
@@ -93,7 +95,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
 
             <TextView
                 android:id="@+id/question_3"
@@ -128,7 +131,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
 
             <TextView
                 android:id="@+id/question_4"
@@ -160,7 +164,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
 
             <TextView
                 android:id="@+id/question_5"

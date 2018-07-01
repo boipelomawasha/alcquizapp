@@ -14,6 +14,7 @@
     <style name="QuestionsStyle">
         <item name="android:textSize">15sp</item>
         <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 

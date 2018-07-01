@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     List<String> userAnswersQ5 = new ArrayList<String>();
     String userAnswerQ6 = "";
 
-
+    //Variables for tracking responses
     int correctResponse = 0;
     int incorrectResponse = 0;
     final int numberOfQuestions = 6;
@@ -76,19 +76,25 @@ public class MainActivity extends AppCompatActivity {
 
     public void submit(View v){
 
-        grade();
+        try {
+            grade();
+            allQuestionsAnswered = true;
+        }
+        catch (Exception e){
+            Toast.makeText(MainActivity.this, "Please answer all the questions", Toast.LENGTH_SHORT).show();
+        }
 
         if (allQuestionsAnswered) {
             Toast.makeText(MainActivity.this, finalMessage, Toast.LENGTH_SHORT).show();
             submit = (Button) findViewById(R.id.submit);
-            submit.setClickable(false);
+            submit.setEnabled(false);
         }
     }
 
     //Resets the quiz
     public void reset(View v){
 
-        submit.setClickable(true);
+        submit.setEnabled(true);
         rgQuestion1.clearCheck();
         rgQuestion2.clearCheck();
         rgQuestion3.clearCheck();
@@ -156,14 +162,11 @@ public class MainActivity extends AppCompatActivity {
         int radioButtonID = 0;
         RadioButton selectedButton;
 
-        try {
-
             //Get answer for question 1
             radioButtonID = rgQuestion1.getCheckedRadioButtonId();
             selectedButton = (RadioButton) rgQuestion1.findViewById(radioButtonID);
 
             userAnswerQ1 = (String) selectedButton.getText();
-
 
             //Get answer for question 2
             radioButtonID = rgQuestion2.getCheckedRadioButtonId();
@@ -194,11 +197,7 @@ public class MainActivity extends AppCompatActivity {
                 userAnswersQ5.add(chkQuestion5_3.getText().toString());
 
             //Get answer for question 6
-            userAnswerQ6 = txtQuestion6.toString();
-        }
-        catch (Exception e){
-            Toast.makeText(MainActivity.this, "Please answer all the questions", Toast.LENGTH_SHORT).show();
-        }
+            userAnswerQ6 = txtQuestion6.getText().toString();
 
     }
 
@@ -225,7 +224,5 @@ public class MainActivity extends AppCompatActivity {
             finalMessage = "Yataa!! You got " + correctResponse +"/" + numberOfQuestions + " questions correct";
 
     }
-
-
 
 }
