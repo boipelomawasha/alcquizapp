@@ -33,11 +33,17 @@
 
     <!-- Question 6 -->
     <string name="question_6">Q6: Syncope is the medical term for what?</string>
+    <string name="question_6_hint">Response</string>
 
     <!-- Buttons -->
     <string name="submit">Submit</string>
     <string name="reset">Reset</string>
 
     <string name="content_description">banner</string>
+
+    <!-- Additional strings -->
+    <string name="answer_all_questions">Please answer all the questions</string>
+    <string name="final_message_wrong">Sorry! You got " %1$d "/" %2$d " questions correct</string>
+    <string name="final_message_right">Yataa!! You got " %1$d "/" %2$d  " questions correct</string>
 
 </resources>
