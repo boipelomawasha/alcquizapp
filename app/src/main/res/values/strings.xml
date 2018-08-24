@@ -1,38 +1,38 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Bleach Anime Quiz</string>
+    <string name="app_name">Science Quiz</string>
 
     <!-- Question 1 and options -->
-    <string name="question_1">Q1: Which weapon was Rukia initially supposed to wield?</string>
-    <string name="question_1_1">Gun</string>
-    <string name="question_1_2">Scythe</string>
-    <string name="question_1_3">Sickle</string>
+    <string name="question_1">Q1: How many colors are there in the spectrum??</string>
+    <string name="question_1_1">Seven</string>
+    <string name="question_1_2">Nine</string>
+    <string name="question_1_3">Five</string>
 
     <!-- Question 2 and options -->
-    <string name="question_2">Q2: How did Ichigo an co. access Hueco Mundo?</string>
+    <string name="question_2">Q2: The first four of Jupiter\'s Moons that were discovered, are referred to as what?</string>
     <string name="question_2_1">Deigrabo</string>
-    <string name="question_2_2">Garganta</string>
+    <string name="question_2_2">The Galilean Moons</string>
     <string name="question_2_3">Privarón</string>
 
     <!-- Question 3 and options -->
-    <string name="question_3">Q3: What is the name of the attack that Ichigo uses when he uses the Final Getsuga Tenshō?</string>
-    <string name="question_3_1">Sōsuke</string>
-    <string name="question_3_2">Jugram Haschwalth</string>
-    <string name="question_3_3">Mugetsu</string>
+    <string name="question_3">Q3: Polaris is more commonly referred to as what?</string>
+    <string name="question_3_1">The South Star</string>
+    <string name="question_3_2">Halley\'s comet</string>
+    <string name="question_3_3">The North Star</string>
 
     <!-- Question 4 and options -->
-    <string name="question_4">Q4: Who are the current captain\'s of the 3rd and 9th division?</string>
-    <string name="question_4_1">Rōjūrō Ōtoribashi</string>
-    <string name="question_4_2">Sentarō Kotsubaki</string>
-    <string name="question_4_3">Kensei Muguruma</string>
+    <string name="question_4">Q4: Which of these are valid states of matter</string>
+    <string name="question_4_1">Plasma</string>
+    <string name="question_4_2">Solid</string>
+    <string name="question_4_3">Dry</string>
 
     <!-- Question 5 and options -->
-    <string name="question_5">Q5: Which of these are units of the Wandenreich?</string>
-    <string name="question_5_1">Jagdarmee</string>
-    <string name="question_5_2">Sternritter</string>
-    <string name="question_5_3">Quilge Opie</string>
+    <string name="question_5">Q5: Which of these are elements on the periodic table</string>
+    <string name="question_5_1">Otosium</string>
+    <string name="question_5_2">Bohrium</string>
+    <string name="question_5_3">Neptunium</string>
 
     <!-- Question 6 -->
-    <string name="question_6">Q6: Who was the first Kenpachi?</string>
+    <string name="question_6">Q6: Syncope is the medical term for what?</string>
 
     <!-- Buttons -->
     <string name="submit">Submit</string>

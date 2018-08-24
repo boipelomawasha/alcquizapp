@@ -34,41 +34,41 @@ public class MainActivity extends AppCompatActivity {
 
     }
     //Variables for the correct answers
-    String answerQ1;
-    String answerQ2;
-    String answerQ3;
-    List<String> answersQ4 = new ArrayList<String>();
-    List<String> answersQ5 = new ArrayList<String>();
-    String answerQ6;
+    private String answerQ1;
+    private String answerQ2;
+    private String answerQ3;
+    private List<String> answersQ4 = new ArrayList<String>();
+    private List<String> answersQ5 = new ArrayList<String>();
+    private String answerQ6;
 
     //Variables for user answers
-    String userAnswerQ1 = "";
-    String userAnswerQ2 = "";
-    String userAnswerQ3 = "";
-    List<String> userAnswersQ4 = new ArrayList<String>();
-    List<String> userAnswersQ5 = new ArrayList<String>();
-    String userAnswerQ6 = "";
+    private String userAnswerQ1 = "";
+    private String userAnswerQ2 = "";
+    private String userAnswerQ3 = "";
+    private List<String> userAnswersQ4 = new ArrayList<String>();
+    private List<String> userAnswersQ5 = new ArrayList<String>();
+    private String userAnswerQ6 = "";
 
     //Variables for tracking responses
-    int correctResponse = 0;
-    int incorrectResponse = 0;
+    private int correctResponse = 0;
+    private int incorrectResponse = 0;
     final int numberOfQuestions = 6;
-    boolean allQuestionsAnswered = false;
-    String finalMessage = "";
+    private boolean allQuestionsAnswered = false;
+    private String finalMessage = "";
 
 
     //Objects used in more than one method
-    RadioGroup rgQuestion1;
-    RadioGroup rgQuestion2;
-    RadioGroup rgQuestion3;
-    CheckBox chkQuestion4_1;
-    CheckBox chkQuestion4_2;
-    CheckBox chkQuestion4_3;
-    CheckBox chkQuestion5_1;
-    CheckBox chkQuestion5_2;
-    CheckBox chkQuestion5_3;
-    TextView txtQuestion6;
-    Button submit;
+    private RadioGroup rgQuestion1;
+    private RadioGroup rgQuestion2;
+    private RadioGroup rgQuestion3;
+    private CheckBox chkQuestion4_1;
+    private CheckBox chkQuestion4_2;
+    private CheckBox chkQuestion4_3;
+    private CheckBox chkQuestion5_1;
+    private CheckBox chkQuestion5_2;
+    private CheckBox chkQuestion5_3;
+    private TextView txtQuestion6;
+    private Button submit;
 
     /**
      * Public methods
@@ -105,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
         chkQuestion5_2.setChecked(false);
         chkQuestion5_3.setChecked(false);
         txtQuestion6.setText("");
+        correctResponse = 0;
+        incorrectResponse = 0;
 
     }
 
@@ -197,20 +199,20 @@ public class MainActivity extends AppCompatActivity {
                 userAnswersQ5.add(chkQuestion5_3.getText().toString());
 
             //Get answer for question 6
-            userAnswerQ6 = txtQuestion6.getText().toString();
+            userAnswerQ6 = txtQuestion6.getText().toString().toLowerCase();
 
     }
 
     private void setAnswers(){
 
-        answerQ1 = "Scythe";
-        answerQ2 = "Garganta";
-        answerQ3 = "Mugetsu";
-        answersQ4.add("Rōjūrō Ōtoribashi");
-        answersQ4.add("Kensei Muguruma");
-        answersQ5.add("Jagdarmee");
-        answersQ5.add("Sternritter");
-        answerQ6 = "Retsu Unohana";
+        answerQ1 = "Seven";
+        answerQ2 = "The Galilean Moons";
+        answerQ3 = "The North Star";
+        answersQ4.add("Plasma");
+        answersQ4.add("Solid");
+        answersQ5.add("Bohrium");
+        answersQ5.add("Neptunium");
+        answerQ6 = "fainting";
     }
 
     private void grade(){
